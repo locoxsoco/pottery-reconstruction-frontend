@@ -257,7 +257,7 @@ function HomepageLayout() {
               chunksAll.set(chunk, position); // (4.2)
               position += chunk.length;
             }
-            downloadFile(chunksAll, 'objeto_reconstruido.pgm');
+            downloadFile(chunksAll, 'objeto_reconstruido.off');
             chunks=[];
             return;
           }
